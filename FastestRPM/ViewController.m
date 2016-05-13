@@ -69,6 +69,7 @@
     if ((sender.state == UIGestureRecognizerStateEnded) || (sender.state == UIGestureRecognizerStateCancelled) || (sender.state == UIGestureRecognizerStateFailed)) {
         
         [UIView animateWithDuration:2 animations:^{
+            self.needle.transform = CGAffineTransformMakeRotation(-1);
             self.needle.transform = CGAffineTransformMakeRotation(-3.9);
             
         }completion:^(BOOL finished) {
