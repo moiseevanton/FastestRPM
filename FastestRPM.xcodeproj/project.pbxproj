@@ -300,6 +300,7 @@
 				E976BD501CE53A3F00970FC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
